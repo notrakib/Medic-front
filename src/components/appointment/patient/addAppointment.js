@@ -28,7 +28,7 @@ const AddAppointment = () => {
     let stTime = +new Date(date);
 
     stTime = stTime + hour * 3600000 + minute * 60000;
-
+    console.log(stTime);
     AddNewAppointment({ stTime })
       .then((res) => {
         if (res.error) {

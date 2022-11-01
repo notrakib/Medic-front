@@ -68,6 +68,7 @@ const Filter = (props) => {
 
     start = curr_date + stHour * 3600000 + stMinute * 60000;
     end = curr_date + enHour * 3600000 + enMinute * 60000;
+    console.log(start, end);
 
     AdminAppointmentByTime(start, end)
       .then((res) => {
