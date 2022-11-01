@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 170px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(250, 203, 211);
+}
+
+.main div {
+  width: 25%;
+}
+
+.main div p {
+  background-color: rgb(227, 133, 240);
+  width: 80%;
+
+  border: 1px solid rgb(208, 85, 224);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding: 3px;
+}
+
+.input {
+  height: 25px;
+  width: 120px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: white;
+  padding-left: 20px;
+  border: 0px;
+  border-radius: 5px;
+  border-radius: 5px;
+  background-color: rgb(173, 173, 173);
+}
+
+.main button {
+  height: 25px;
+  width: 60px;
+  font-weight: 700;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  border-radius: 5px;
+  background-color: rgb(93, 119, 235);
+}

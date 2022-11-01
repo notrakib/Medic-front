@@ -1,0 +1,38 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  border-radius: 20px;
+  top: 25vh;
+  width: 18%;
+  height: 300px;
+  align-self: center;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  z-index: 100;
+}
+
+.modal h1 {
+  text-align: center;
+}
+
+.modal button {
+  height: 50px;
+  border: 0px;
+  font-size: 13pt;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color: rgb(154, 164, 253);
+}

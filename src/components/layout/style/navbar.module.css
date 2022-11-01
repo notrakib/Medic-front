@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(224, 178, 117);
+  height: 70px;
+  position: sticky;
+  top: 0;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+
+.link a {
+  font-size: 17pt;
+  font-weight: 600;
+  align-self: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
+.logo img {
+  height: 50px;
+  align-self: center;
+}
+
+.logo p {
+  font-size: 29pt;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-self: center;
+  color: rgb(219, 0, 0);
+  margin-left: 10px;
+}
